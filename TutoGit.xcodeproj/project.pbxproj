@@ -15,6 +15,7 @@
 		3F6B915115349E0A0054E4AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B915015349E0A0054E4AC /* AppDelegate.m */; };
 		3F6B915415349E0A0054E4AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B915315349E0A0054E4AC /* ViewController.m */; };
 		3F6B915715349E0A0054E4AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B915515349E0A0054E4AC /* ViewController.xib */; };
+		3F6B91601534A08E0054E4AC /* PPRevealSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B915F1534A08E0054E4AC /* PPRevealSideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		3F6B915215349E0A0054E4AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F6B915315349E0A0054E4AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F6B915615349E0A0054E4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3F6B915E1534A08E0054E4AC /* PPRevealSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRevealSideViewController.h; sourceTree = "<group>"; };
+		3F6B915F1534A08E0054E4AC /* PPRevealSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRevealSideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 				3F6B915215349E0A0054E4AC /* ViewController.h */,
 				3F6B915315349E0A0054E4AC /* ViewController.m */,
 				3F6B915515349E0A0054E4AC /* ViewController.xib */,
+				3F6B915D1534A08E0054E4AC /* PPRevealSideviewController */,
 				3F6B914715349E0A0054E4AC /* Supporting Files */,
 			);
 			path = TutoGit;
@@ -96,6 +100,16 @@
 				3F6B914E15349E0A0054E4AC /* TutoGit-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F6B915D1534A08E0054E4AC /* PPRevealSideviewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B915E1534A08E0054E4AC /* PPRevealSideViewController.h */,
+				3F6B915F1534A08E0054E4AC /* PPRevealSideViewController.m */,
+			);
+			name = PPRevealSideviewController;
+			path = ../../Git/PPReveal/PPRevealSideViewController/PPRevealSideviewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +177,7 @@
 				3F6B914D15349E0A0054E4AC /* main.m in Sources */,
 				3F6B915115349E0A0054E4AC /* AppDelegate.m in Sources */,
 				3F6B915415349E0A0054E4AC /* ViewController.m in Sources */,
+				3F6B91601534A08E0054E4AC /* PPRevealSideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
