@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewControllerViewController.h"
 @interface ViewController ()
 
 @end
@@ -24,6 +24,12 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+}
+
+-(IBAction)clicBouton:(id)sender
+{
+    SecondViewControllerViewController *c = [[SecondViewControllerViewController alloc] initWithNibName:@"SecondViewControllerViewController" bundle:nil];
+    [self.revealSideViewController pushViewController:c onDirection:PPRevealSideDirectionBottom animated:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

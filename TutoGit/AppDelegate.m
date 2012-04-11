@@ -14,15 +14,16 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
 @synthesize revealSideViewController = _revealSideViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    _revealSideViewController = [[PPRevealSideViewController alloc] initWithRootViewController:_viewController];
+    
+    ViewController *viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    _revealSideViewController = [[PPRevealSideViewController alloc] initWithRootViewController:nav];
+    
     self.window.rootViewController = self.revealSideViewController;
     [self.window makeKeyAndVisible];
     return YES;

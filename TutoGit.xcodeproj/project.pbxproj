@@ -16,6 +16,9 @@
 		3F6B915415349E0A0054E4AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B915315349E0A0054E4AC /* ViewController.m */; };
 		3F6B915715349E0A0054E4AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6B915515349E0A0054E4AC /* ViewController.xib */; };
 		3F6B91601534A08E0054E4AC /* PPRevealSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B915F1534A08E0054E4AC /* PPRevealSideViewController.m */; };
+		3FC318F5153611B900BDD0B5 /* SecondViewControllerViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3FC318F2153611B900BDD0B5 /* SecondViewControllerViewController.h */; };
+		3FC318F6153611B900BDD0B5 /* SecondViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC318F3153611B900BDD0B5 /* SecondViewControllerViewController.m */; };
+		3FC318F7153611B900BDD0B5 /* SecondViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC318F4153611B900BDD0B5 /* SecondViewControllerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		3F6B915615349E0A0054E4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		3F6B915E1534A08E0054E4AC /* PPRevealSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRevealSideViewController.h; sourceTree = "<group>"; };
 		3F6B915F1534A08E0054E4AC /* PPRevealSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRevealSideViewController.m; sourceTree = "<group>"; };
+		3FC318F2153611B900BDD0B5 /* SecondViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = SecondViewControllerViewController.h; sourceTree = "<group>"; };
+		3FC318F3153611B900BDD0B5 /* SecondViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewControllerViewController.m; sourceTree = "<group>"; };
+		3FC318F4153611B900BDD0B5 /* SecondViewControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewControllerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +88,8 @@
 			children = (
 				3F6B914F15349E0A0054E4AC /* AppDelegate.h */,
 				3F6B915015349E0A0054E4AC /* AppDelegate.m */,
-				3F6B915215349E0A0054E4AC /* ViewController.h */,
-				3F6B915315349E0A0054E4AC /* ViewController.m */,
-				3F6B915515349E0A0054E4AC /* ViewController.xib */,
+				3FC318EF1536114B00BDD0B5 /* ViewController */,
+				3FC318F11536116800BDD0B5 /* SecondViewController */,
 				3F6B915D1534A08E0054E4AC /* PPRevealSideviewController */,
 				3F6B914715349E0A0054E4AC /* Supporting Files */,
 			);
@@ -110,6 +115,26 @@
 			);
 			name = PPRevealSideviewController;
 			path = ../../Git/PPReveal/PPRevealSideViewController/PPRevealSideviewController;
+			sourceTree = "<group>";
+		};
+		3FC318EF1536114B00BDD0B5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B915215349E0A0054E4AC /* ViewController.h */,
+				3F6B915315349E0A0054E4AC /* ViewController.m */,
+				3F6B915515349E0A0054E4AC /* ViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		3FC318F11536116800BDD0B5 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FC318F2153611B900BDD0B5 /* SecondViewControllerViewController.h */,
+				3FC318F3153611B900BDD0B5 /* SecondViewControllerViewController.m */,
+				3FC318F4153611B900BDD0B5 /* SecondViewControllerViewController.xib */,
+			);
+			name = SecondViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +189,7 @@
 			files = (
 				3F6B914B15349E0A0054E4AC /* InfoPlist.strings in Resources */,
 				3F6B915715349E0A0054E4AC /* ViewController.xib in Resources */,
+				3FC318F7153611B900BDD0B5 /* SecondViewControllerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +204,8 @@
 				3F6B915115349E0A0054E4AC /* AppDelegate.m in Sources */,
 				3F6B915415349E0A0054E4AC /* ViewController.m in Sources */,
 				3F6B91601534A08E0054E4AC /* PPRevealSideViewController.m in Sources */,
+				3FC318F5153611B900BDD0B5 /* SecondViewControllerViewController.h in Sources */,
+				3FC318F6153611B900BDD0B5 /* SecondViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +317,7 @@
 				3F6B915C15349E0A0054E4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
