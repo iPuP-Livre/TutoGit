@@ -12,7 +12,7 @@
  ViewController
  
  Ce contrôleur est le premier qui apparaît dans l'application.
- La vue a un une couleur de fond grise et il contient un bouton
+ La vue a une couleur de fond grise et elle contient un bouton.
  */
 @interface ViewController : UIViewController
 
@@ -22,8 +22,8 @@
  Le clic sur le bouton de la vue envoie sur cette méthode qui va utiliser 
  PPRevealSideViewController pour pusher la SecondeViewController
  
- @param buton le bouton qui envoie l'action
- @return une action
+ @param bouton le bouton qui envoie l'action
+ @return Une action
  */
 -(IBAction)clicBouton:(UIButton*)bouton;
 
